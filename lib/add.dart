@@ -72,8 +72,8 @@ class AddPage extends StatelessWidget{
                       autofocus: true,
                       style: TextStyle(color: Colors.white,fontSize: 32),
                       keyboardType: TextInputType.multiline,
-                      // maxLines: null, // 👈 Infinite vertical lines allowed
-                      // minLines: 1,     // 👈 Minimum height 1 line
+                      // maxLines: null, //  Infinite vertical lines allowed
+                      // minLines: 1,     //  Minimum height 1 line
                       decoration: InputDecoration(
                         hintText: 'Title...',
                         hintStyle: TextStyle(color: Colors.white54),
