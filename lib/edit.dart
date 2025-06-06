@@ -103,8 +103,8 @@ class _EditPageState extends State<EditPage> {
                       autofocus: true,
                       style: TextStyle(color: Colors.white,fontSize: 32),
                       keyboardType: TextInputType.multiline,
-                      // maxLines: null, // 👈 Infinite vertical lines allowed
-                      // minLines: 1,     // 👈 Minimum height 1 line
+                      // maxLines: null,
+                      // minLines: 1,
                       decoration: InputDecoration(
                         hintText: 'Title...',
                         hintStyle: TextStyle(color: Colors.white54),
@@ -118,8 +118,8 @@ class _EditPageState extends State<EditPage> {
                       autofocus: true,
                       style: TextStyle(color: Colors.white,fontSize: 22),
                       keyboardType: TextInputType.multiline,
-                      maxLines: null, // 👈 Infinite vertical lines allowed
-                      minLines: 1,     // 👈 Minimum height 1 line
+                      maxLines: null,
+                      minLines: 1, 
                       decoration: InputDecoration(
                         hintText: 'Type something...',
                         hintStyle: TextStyle(color: Colors.white54),
